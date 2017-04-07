@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="UTF-8">
+<title>Chrome clipboardData </title>
+<style type="text/css">
+#box{ width:200px; height:200px; border:1px solid #ddd; }
+img{
+	display: inline-block;
+}
+.inputdiv{
+	border: 1px solid #afafaf;
+	border-radius: 2px;
+	overflow: auto;
+	height: 300px;
+	width: 600px;
+	margin: 20px auto;
+}
+</style>
+</head>
+<body>
+<div contenteditable="true" class="inputdiv" id="inpu">paste img here</div>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="imgpaste.js"></script>
+<script type="text/javascript">
+$(".inputdiv").imgpaste();
+</script>
+
+</body>
+</html>
