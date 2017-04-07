@@ -1,0 +1,1 @@
+# Imgpaste.js
