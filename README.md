@@ -8,7 +8,7 @@ Impaste用于在[contenteditable]中从剪切板粘贴图片。以base64格式�
 
 ### html
 
-`<div contenteditable="true">paste img here</div>`
+`<div contenteditable="true" class="contenteditableDiv">paste img here</div>`
 
 ### js
 
